@@ -56,7 +56,7 @@ paths:
   /contatos/{contatoId}:
     get:
       summary: Info for a specific pet
-      operationId: showPetById
+      operationId: contatoById
       tags:
         - contatos
       parameters:
