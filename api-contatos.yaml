@@ -55,7 +55,7 @@ paths:
                 $ref: "#/components/schemas/Error"
   /contatos/{contatoId}:
     get:
-      summary: Info for a specific pet
+      summary: Informação de um contato especifico. 
       operationId: contatoById
       tags:
         - contatos
